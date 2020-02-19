@@ -4,6 +4,11 @@ High level C++ wrapper for librdkafka - https://github.com/edenhill/librdkafka
 
 # kafkatesting
 
+### Dependencies
+
+* https://github.com/edenhill/librdkafka
+* https://github.com/gabime/spdlog (this is not required, but im using for some logs)
+
 ### Consumer example
 
 ```c++
