@@ -12,7 +12,7 @@ High level C++ wrapper for librdkafka - https://github.com/edenhill/librdkafka
 ### Consumer example
 
 ```c++
-
+#include <unistd.h>
 #include <iostream>
 #include "src/KafkaZ/ConsumerFactory.h"
 
@@ -39,6 +39,7 @@ int main(int argc, char **argv) {
 ```
 
 ```c++
+#include <unistd.h>
 #include "src/KafkaZ/Producer.h"
 #include "src/KafkaZ/ProducerTopic.h"
 
