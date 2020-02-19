@@ -9,7 +9,7 @@ High level C++ wrapper for librdkafka - https://github.com/edenhill/librdkafka
 ```c++
 
 #include <iostream>
-#include "KafkaZ/ConsumerFactory.h"
+#include "src/KafkaZ/ConsumerFactory.h"
 
 using namespace std;
 
@@ -34,8 +34,8 @@ int main(int argc, char **argv) {
 ```
 
 ```c++
-#include "KafkaZ/Producer.h"
-#include "KafkaZ/ProducerTopic.h"
+#include "src/KafkaZ/Producer.h"
+#include "src/KafkaZ/ProducerTopic.h"
 
 using namespace std;
 
