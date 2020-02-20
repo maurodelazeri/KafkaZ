@@ -10,8 +10,7 @@ namespace KafkaZ {
 
         // Create a unique group.id for this consumer
         SettingsCopy.KafkaConfiguration["group.id"] = fmt::format(
-                "host:{}--pid:{}--time:{}", gethostname_wrapper(),
-                getpid_wrapper(), std::chrono::duration_cast<std::chrono::milliseconds>(
+                "time:{}", std::chrono::duration_cast<std::chrono::milliseconds>(
                         std::chrono::steady_clock::now().time_since_epoch())
                         .count());
         SettingsCopy.Address = Broker;
