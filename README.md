@@ -35,6 +35,8 @@ int main(int argc, char **argv) {
 }
 ```
 
+### Producer example
+
 ```c++
 #include <unistd.h>
 #include "src/KafkaZ/Producer.h"
